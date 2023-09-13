@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center">Calculator</h1>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div>
+                    <input type="text" name="display" style="width: 100%"></input>                
+                </div>
+                <div class="keys">
+                        <input type="button" value="AC" class="clearscreen" onclick="clearScreen()"></input>
+                        <input type="button" value="+/-" class="numberflip" onclick="display('-')"></input>
+                        <input type="button" value="%" class="operators" onclick="display('%')"></input>
+                        <input type="button" value="/" class="operators" onclick="display('/')"></input>
+                        <input type="button" value="7" class="digits" onclick="display('7')"></input>
+                        <input type="button" value="8" class="digits" onclick="display('8')"></input>
+                        <input type="button" value="9" class="digits" onclick="display('9')"></input>
+                        <input type="button" value="*" class="operators" onclick="display('*')"></input>
+                        <input type="button"  value="4" class="digits" onclick="display('4')"></input>
+                        <input type="button"  value="5" class="digits" onclick="display('5')"></input>
+                        <input type="button"  value="6" class="digits" onclick="display('6')"></input>
+                        <input type="button"  value="-" class="operators" onclick="display('-')"></input>
+                        <input type="button" value="1" class="digits" onclick="display('1')"></input>
+                        <input type="button" value="2" class="digits" onclick="display('2')"></input>
+                        <input type="button" value="3" class="digits" onclick="display('3')"></input>
+                        <input type="button" value="+" class="operators" onclick="display('+')"></input>
+                        <input type="button" value="0" class="digit0" onclick="display('0')"></input>
+                        <input type="button" value="." class="digit-decimal" onclick="display('.')"></input>
+                        <input type="button" value="=" class="button-equal-sign" onclick="solve()"></input>
+                    </div>
+                </div>    
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
